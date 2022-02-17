@@ -1,0 +1,266 @@
+
+body {
+	font-family: Tahoma, sans-serif;
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+    overflow-x: hidden;
+}
+h1 {
+	font-weight: 700;
+	width: 569px;
+}
+p {
+	line-height: 1.65em;
+}
+/* Navigation bar*/
+ul {  
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	
+	background: white;
+}
+
+li {
+	font-size: 20px;
+	float: left;
+	
+}
+
+	li a {
+		display: block;
+		color: ghostwhite;
+		text-align: center;
+		padding: 10px 16px;
+		text-decoration: none;
+		
+	}
+
+li a:hover {
+    background-color: white;
+	color: navy;
+}
+
+.container {
+	width: 1171px;
+	margin:  auto;
+	
+}
+/* Header */
+.header {
+	background: navy;
+	padding-top: 62px;
+	padding-bottom: 100px;
+}
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.picture {
+	width: 300px;
+	height: 400px;
+}
+.title {
+	font-size: 50px;
+}
+
+.info {
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    width: 300px;
+}
+.button {
+	background-color: gold;
+	font-family: 'Times New Roman';
+	color: black;
+	display: block;
+	padding: 25px ;
+	text-align: center;
+	
+	
+	
+}
+	.button:hover {
+		background: #f6c811;
+	}
+/* My pages */
+.page {
+	margin-top: 100px;
+	margin-bottom: 110px;
+	color: navy ;
+	background-color: whitesmoke;
+
+}
+ h2 {
+	 margin-top: 5px;
+	 margin-bottom: 15px;
+ }
+ h3{
+	margin: auto;
+	
+}
+.sec-title {
+	font-size: 30px;
+	text-align: center;
+}
+.sec-title2 {
+	font-size: 30px;
+	text-align: center;
+	padding-top: 25px;
+	color: #3333cc;
+}
+.section-background {
+	-moz-background-clip: border-box;
+	-webkit-background-clip:content-box;
+	background-color: whitesmoke;
+	
+}
+.div-background {
+ background-size:auto;
+}
+.pages {
+	display: flex;
+	justify-content:space-between;
+	text-align:center;
+	margin-top: 70px;
+	
+	
+}
+.pages-background{
+	width: 300px;
+	
+	
+	background:url('../images/scriptonite.jfif') no-repeat center top;
+	padding-top: 200px;
+}
+.page-title {
+	font-size: 19px;
+}
+page-subtitle {
+	font-family: 'Times New Roman';
+		font-size: 20px;
+	margin-top: 3% 15%;
+}
+.page-text {
+	font-family: 'Times New Roman' ;
+	font-size: 20px;
+	font-weight: 400;
+	margin: 20px;
+}
+.page-stih {
+	font-family: 'Luxurious Roman', cursive;
+	
+	font-size: 20px;
+	/*text-align: left center;*/
+	padding-left: 25%;
+	text-align: left;
+}
+.page-title:hover { 
+	color: gold;
+}
+.pages-create {
+	width:280px;
+	
+	height: 0px;
+	background: url('../images/books.png');
+	padding-top: 200px ;
+	
+
+	
+
+
+}
+.pages-hobby {
+	width: 	400px;
+	background:url('../images/p2.png') no-repeat center top;
+	padding-top: 200px;
+}
+
+/* Testimonils */
+#testimonials  {
+	padding: 7% 15%;
+	text-align: center;
+	background-color: darkblue;
+}
+.testimonial-img {
+	background: url('../images/simolecs.png') no-repeat center top;
+	width: 30%;
+	border-radius: 50%;
+	margin: 20px;
+}
+.testimonial-img2 {
+	background: url('../images/tokaev.png') no-repeat center top;
+	width: 25%;
+	border-radius: 40%;
+	margin: 20px;
+}
+
+
+.forms {
+	background: #ecf3f8;
+	padding: 104px 0px;
+	color: black;	
+}
+.form-option {
+	width: 343px;
+	margin: 0 auto;
+	margin-top: 62px;
+}
+.input {
+    width:343px;
+    height: 47px;
+    border: 1px solid #bbbbbb;
+    padding-left: 26px;
+    font-family: 'Times New Roman', sans-serif;
+    margin-bottom: 16px;
+}
+.button-form{
+	width: 342px;
+	border: 0;
+	cursor:pointer;
+	margin: 0;
+}
+
+.footer {
+	padding: 30px 0px;
+	background: #00AFFD;
+}
+.credits {
+	color: ghostwhite;
+	font-size: 14px;
+	text-align: center; 
+}
+
+/*Written works page*/
+.title-work {
+	padding-left: 25%;
+	text-align:left;
+	color:floralwhite;
+	background-color: navy;
+}
+
+
+.carousel-item {
+	height: 600px;
+	
+	 font-weight: 600;
+}
+
+/*Choice page*/
+.card-line{
+	
+}
+/* Gif */
+.anim {
+	display: block;
+	width: 476px;
+	height: 300px;
+	margin:50 auto;
+	background: url(genjutsu.gif) 0 0 no-repeat;
+	background-size: -2500%;
+	animation: like-gif steps(28) 1s 1 both;
+}
